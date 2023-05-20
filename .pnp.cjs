@@ -1102,6 +1102,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@types/assert", [\
+      ["npm:1.5.6", {\
+        "packageLocation": "../../.yarn/berry/cache/@types-assert-npm-1.5.6-0fd4359322-9.zip/node_modules/@types/assert/",\
+        "packageDependencies": [\
+          ["@types/assert", "npm:1.5.6"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@types/eslint", [\
       ["npm:8.37.0", {\
         "packageLocation": "../../.yarn/berry/cache/@types-eslint-npm-8.37.0-1f765f44f3-9.zip/node_modules/@types/eslint/",\
@@ -5907,6 +5916,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./packages/mesfavoris/",\
         "packageDependencies": [\
           ["mesfavoris", "workspace:packages/mesfavoris"],\
+          ["@types/assert", "npm:1.5.6"],\
           ["@types/mocha", "npm:10.0.1"],\
           ["@types/vscode", "npm:1.78.0"],\
           ["@types/webpack-env", "npm:1.18.0"],\
