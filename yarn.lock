@@ -893,6 +893,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/assert@npm:^1.5.6":
+  version: 1.5.6
+  resolution: "@types/assert@npm:1.5.6"
+  checksum: 96888a340d2a77ed8b3b5ba2def453d3f9f1e9b1e68466bb158989b8df65fcecdf55ca1d45d8f75c944d1121ebf3a73a2311f554d9e44ae41f80f0d4a074dcd5
+  languageName: node
+  linkType: hard
+
 "@types/eslint-scope@npm:^3.7.3":
   version: 3.7.4
   resolution: "@types/eslint-scope@npm:3.7.4"
@@ -5060,6 +5067,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "mesfavoris@workspace:packages/mesfavoris"
   dependencies:
+    "@types/assert": "npm:^1.5.6"
     "@types/mocha": "npm:^10.0.1"
     "@types/vscode": "npm:^1.78.0"
     "@types/webpack-env": "npm:^1.18.0"
