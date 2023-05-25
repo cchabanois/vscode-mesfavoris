@@ -4,6 +4,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "test": "npx lerna run test --stream"
+  },
   "devDependencies": {
     "lerna": "^6.6.2"
   }
