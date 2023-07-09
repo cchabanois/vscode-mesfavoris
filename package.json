@@ -5,9 +5,13 @@
     "packages/*"
   ],
   "scripts": {
-    "test": "npx lerna run test --stream"
+    "test": "lerna run test --stream"
   },
   "devDependencies": {
     "lerna": "^6.6.2"
+  },
+  "volta": {
+    "node": "18.16.1",
+    "yarn": "4.0.0-rc.48"
   }
 }
